@@ -1,0 +1,48 @@
+@import "partials/reset";
+@import "partials/colors";
+@import "partials/fonts";
+@import "partials/spacing";
+@import "partials/mixins";
+@import "partials/buttons";
+@import "partials/animations";
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  background-color: black;
+  ul li {
+    list-style: none;
+    padding: 0.5rem 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+section {
+  background-color: #640fc5;
+}
+
+img {
+  width: 60px;
+  height: 60px;
+  padding: 0.5rem 0;
+}
+div.main-content {
+  display: flex;
+  margin-top: 1rem;
+
+  div.first-button {
+    color: #0e6cff;
+  }
+  div.second-button {
+    color: #ff8700;
+  }
+  div.third-button {
+    color: #4caf50;
+  }
+  p.lorem {
+    color: #f4f4f4;
+  }
+}
